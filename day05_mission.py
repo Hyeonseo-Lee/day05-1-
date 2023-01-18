@@ -1,4 +1,6 @@
-#8.11
+#9.1
 
-a_set = {number for number in range(10) if number % 2 == 1}
-print(a_set)
+def good():
+    return ['Harry', 'Ron', 'Hermione']
+
+#print(good())
