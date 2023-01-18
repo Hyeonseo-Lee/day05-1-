@@ -17,4 +17,18 @@ def call_func(f):
     """
     f() #넘겨 받은 함수 실행
 
+def subtract(n1, n2):
+    print(n1 -n2)
+
+
+def run_func(f, arg1, arg2):
+    f(arg1, arg2)
+
+run_func(subtract, 99, 88)
+
+
+a = (5, 7, -1)
+print(sum(a))
+
+
 call_func(inha)
