@@ -1,6 +1,6 @@
-#9.1
+#8.12
 
-def good():
-    return ['Harry', 'Ron', 'Hermione']
+a_generator = (number for number in range(10))
 
-#print(good())
+for i in a_generator:
+    print(i, 'Got')
